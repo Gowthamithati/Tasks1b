@@ -1,0 +1,40 @@
+.app-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+}
+.add-container {
+  width: 30%;
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.add-container h1 {
+  color: yellow;
+}
+.add-container label {
+  align-items: flex-start;
+}
+.show-container {
+  width: 70%;
+  background-color: aqua;
+}
+.show-container button {
+  color: #fffff;
+  margin: 10px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.tasks-section {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  background-color: cadetblue;
+}
